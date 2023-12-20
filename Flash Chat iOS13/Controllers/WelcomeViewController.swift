@@ -10,14 +10,20 @@ import UIKit
 import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
-
+    
     @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         titleLabel.text = "⚡️FlashChat"
-        
+
+    }
+    
+
+}
+
+// animation label without CL Package
 //        titleLabel.text = ""
 //        var charIndex = 0.0
 //        let titleText = "⚡️FlashChat"
@@ -27,21 +33,3 @@ class WelcomeViewController: UIViewController {
 //            }
 //            charIndex += 1
 //        }
-    }
-    
-
-}
-
-//@main
-//struct YourApp: App {
-//  // register app delegate for Firebase setup
-//  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-//
-//  var body: some Scene {
-//    WindowGroup {
-//      NavigationView {
-//        ContentView()
-//      }
-//    }
-//  }
-//}
